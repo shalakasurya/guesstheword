@@ -1,4 +1,5 @@
 import React from "react";
+import './GameResult.css';
 
 const GameResult = ({ game }) => {
     if (game.lost !== undefined) {
