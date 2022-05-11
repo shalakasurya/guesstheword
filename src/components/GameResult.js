@@ -17,7 +17,7 @@ const GameResult = ({ game }) => {
             <div>
                 {
                     <h2>Tried to guess the word "{game.game.word}"
-                    and won with {game.game.guesses.length} correct guesses and {game.game.incorrect_guesses.length} incorrect guesses.
+                    and won with {game.game.guesses.length - game.game.incorrect_guesses.length} correct guesses and {game.game.incorrect_guesses.length} incorrect guesses.
                     </h2>
                 }
             </div>
